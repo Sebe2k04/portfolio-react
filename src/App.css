@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: sci-fi3;
+  src: url(./assets/font3.otf);
+}
+@font-face {
+  font-family: avenger;
+  src: url(./assets/fonts/AVENGEANCE\ HEROIC\ AVENGER.otf);
+}
+@font-face {
+  font-family: quantum;
+  src: url(./assets/fonts/Quantum.otf);
+}
+@font-face {
+  font-family: homoarak;
+  src: url(./assets/fonts/HOMOARAK.TTF);
+}
+@font-face {
+  font-family: spider;
+  src: url(./assets/fonts/Spiderwoman.ttf);
+}
+@font-face {
+  font-family: designer;
+  src: url(./assets/fonts/Designer.otf);
+}
+@font-face {
+  font-family: spirit;
+  src: url(./assets/fonts/Fighting\ Spirit\ 2.otf);
+}
+@font-face {
+  font-family: moto;
+  src: url(./assets/fonts/moto-verse.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url(./assets/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img-pg1 .img1{
+  background: url(./assets/pic.png);
+  width: 60%;
+  height: max-content;
 }

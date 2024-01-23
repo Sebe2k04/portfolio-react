@@ -9,6 +9,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -39,5 +40,19 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      let dropdown = document.querySelector(".dropdown");
+      let menu = document.getElementById("menu");
+        menu.addEventListener("click",function(){
+      if(dropdown.style.display==="block"){
+          menu.innerHTML="<i class='bx bx-menu bx-sm'></i>"
+          dropdown.style.display="none";
+      }
+      else{
+          menu.innerHTML="<i class='bx bx-x bx-sm'></i>"
+          dropdown.style.display="block";
+      }
+      })
+    </script>
   </body>
 </html>
