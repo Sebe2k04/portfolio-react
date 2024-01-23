@@ -1,7 +1,13 @@
-import React from 'react'
+import { useReducer } from "react";
+import React, { useState } from 'react'
 import './Header.css'
 
 const Header = () => {
+
+    const [display, toggleDisplay] = useReducer(
+        (val) => (val === "block" ? "none" : "block"),
+        "none"
+      );
   return (
     <header>
         <div className="head">
@@ -24,12 +30,12 @@ const Header = () => {
                         <i className='bx bx-user-voice bx-sm'></i>
                     </div>
                 </div>
-                <div className="" id="menu">
+                <div className="" id="menu" onClick={toggleDisplay}>
                     <i className='bx bx-menu bx-sm'></i>
                 </div>
                 
             </div>
-            <div className="dropdown">
+            <div className="dropdown" style={{display}}>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
