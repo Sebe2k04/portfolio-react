@@ -68,7 +68,7 @@
     padding-bottom: 8px;
     border-radius: 100px;
     background-color: rgb(255, 255, 255);
-    box-shadow: black 2px 2px 10px;
+    box-shadow: 2px 2px 10px;
     transition: .5s;
 }
 .person-links a:hover{
@@ -93,13 +93,15 @@
     width: max-content;
     transition: 1s;
     box-shadow: 2px 2px 10px black;
+    transition: 2s;
 }
 .cv a{
     font-family: designer;
-    transition: 1s;
+    
 }
 .cv:hover{
     padding: 15px 25px;
+    box-shadow: white 2px 2px 10px;
     a{
         letter-spacing: 2px;
         color: white;
