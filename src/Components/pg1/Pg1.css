@@ -24,6 +24,7 @@
     font-family: designer;
 }
 .text-pg1 p{
+    line-height:150%;
     margin-top: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;

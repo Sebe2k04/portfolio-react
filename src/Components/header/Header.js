@@ -1,13 +1,12 @@
 import { useReducer } from "react";
-import React, { useState } from 'react'
-import './Header.css'
-
+import './Header.css';
 const Header = () => {
 
     const [display, toggleDisplay] = useReducer(
         (val) => (val === "block" ? "none" : "block"),
         "none"
       );
+
   return (
     <header>
         <div className="head">
@@ -30,7 +29,7 @@ const Header = () => {
                         <i className='bx bx-user-voice bx-sm'></i>
                     </div>
                 </div>
-                <div className="" id="menu" onClick={toggleDisplay}>
+                <div className="" id="menu" onClick={toggleDisplay} >
                     <i className='bx bx-menu bx-sm'></i>
                 </div>
                 
