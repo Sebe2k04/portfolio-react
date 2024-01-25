@@ -6,6 +6,8 @@ import Achievements from './Components/achievements/Achievements';
 import './App.css';
 import Projects from './Components/projects/Projects';
 import Experience from './Components/experience/Experience';
+import Contact from './Components/contact/Contact';
+import Footer from './Components/footer/Footer';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Achievements />
       <Projects />
       <Experience />
+      <Contact />
+      <Footer />
     </div>
   );
 }

@@ -25,7 +25,7 @@ const Experience = () => {
                     <h2>Codsoft</h2>
                     <h4>Web Development Intern</h4>
                     <h3>Remote , India</h3>
-                    <p>Developed and Designed Static webpages using HTML , CSS , JavaScript to provide efficient operations and functions  based on requirements and worked on various responsive pages </p>
+                    <p>Developed and Designed Static webpages using HTML , CSS , JavaScript to provide efficient operations and functions  based on requirements and worked on various responsive pages and build portfolio and landing pages</p>
                     <p>December 2023 - January 2024</p>
                 </div>
                 <div className="card-experience">

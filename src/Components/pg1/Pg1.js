@@ -10,23 +10,14 @@ const Pg1 = () => {
       <div className="textcontent-pg1">
         <h1>SEBE S</h1>
         <h3>Web Developer</h3>
-        <p>
-          Crafting the digital world, one line of code at a time. Web
-          development is not just about building websites; it's about creating
-          immersive experiences and bringing ideas to life in the vast realm of
-          the internet.Designing the web is a dance of creativity and
-          functionality. Every pixel tells a story, and every layout is a canvas
-          for innovation. A web designer doesn't just create visuals; they
-          sculpt digital experiences that leave a lasting impression on the
-          virtual stage.
-        </p>
+        <p>Welcome to my digital space! I am Sebe S, a passionate web developer with a love for turning ideas into interactive and visually appealing experiences. This portfolio is a reflection of my journey, featuring a collection of projects that highlight my skills in  web development, design, etc.. From crafting elegant and responsive websites to solving complex problems through innovative solutions, I'm dedicated to creating meaningful and impactful digital experiences. Explore my work, and let's connect to discuss how we can collaborate and bring your ideas to life. Thank you for visiting!</p>
       </div>
       <div className="textbtn-pg1">
         <div className="btn1">
-          <a href="">Hire Me</a>
+          <a href="#about">KNOW Me</a>
         </div>
         <div className="btn2">
-          <a href="">Let's Talk</a>
+          <a href="#contact">Let's Talk</a>
         </div>
       </div>
     </div>

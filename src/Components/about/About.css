@@ -93,7 +93,7 @@
     width: max-content;
     transition: 1s;
     box-shadow: 2px 2px 10px black;
-    transition: 2s;
+    transition: .5s;
 }
 .cv a{
     font-family: designer;
@@ -109,6 +109,7 @@
 }
 
 /* text */
+
 .about-content{
     margin-top: 50px;
     line-height:150%;

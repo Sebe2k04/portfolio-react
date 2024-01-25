@@ -1,5 +1,5 @@
 .Experience{
-    margin-top: 100px;
+    padding-top: 100px;
     margin: 40px;
 }
 .Experience h1{
@@ -27,7 +27,7 @@
     backdrop-filter: blur(4px);
     margin-top: 40px;
     text-align: justify;
-    transition: 1s;
+    transition: .5s;
 }
 .card-experience h2{
     font-family: sci-fi3;
@@ -58,4 +58,13 @@
 }
 .card-experience:hover{
     color: white;
+}
+
+
+@media screen and (max-width:768px) {
+    .content-experience{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    
 }
