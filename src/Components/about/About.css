@@ -1,5 +1,7 @@
-.about h1{
+.about{
     padding-top: 100px;
+}
+.about h1{  
     font-family: sci-fi3;
     text-align: center;
 }

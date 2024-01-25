@@ -14,11 +14,7 @@
 .text-pg1 h1{
     font-family: sci-fi3;
     font-size: 50px;
-    
-}
-.text-pg1 h1 span{
     animation: name 2s infinite;
-    animation-delay: calc(.1s * var(--i));
     
 }
 .text-pg1 h3{
@@ -102,6 +98,7 @@
     }
     50%{
         color: white;
+        letter-spacing: 5px;
     }
     100%{
         color: black;

@@ -4,6 +4,7 @@ import './Contact.css'
 const Contact = () => {
   return (
     <div className="contact" id="contact">
+            <p id="tagline">Get in Touch</p>
             <h1>Contact</h1>
             <p>Contact me through</p>
             <div className="contact-links">

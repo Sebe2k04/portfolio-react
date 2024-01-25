@@ -4,6 +4,7 @@ import './Skills.css'
 const Skills = () => {
   return (
     <div className="skills" id='skills'>
+            <p id="tagline">Get to Know More</p>
             <h1>Skills</h1>
             <div className="skills-card">
                 <div className="skillcard"><i className='bx bxl-html5 bx-lg '></i><p>HTML</p></div>

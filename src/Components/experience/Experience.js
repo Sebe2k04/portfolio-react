@@ -4,6 +4,7 @@ import './Expeerience.css'
 const Experience = () => {
   return (
     <div className="Experience">
+            <p id="tagline">Get to Know More</p>
             <h1>Experience</h1>
             <p>I have a lot of experience and knowledge through my studies and worked on many projects to showcase my skills , And I worked on some remote Internships to gain experience and knowledge in the pioneer of "Web developer"</p>
             <div className="content-experience">

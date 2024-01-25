@@ -5,6 +5,7 @@ const Achievements = () => {
   return (
     <div className="achievements">
             <div className="text-achievements">
+                <p id="tagline">Get to Know More</p>
                 <h1>ACHIEVEMENTS</h1>
                 <p>Web development is not just about code; it's a symphony of creativity and functionality. Each line of code is a note, and the achievement lies in composing a seamless, user-centric experience that harmonizes technology and design, turning ideas into interactive reality</p>
             </div>
