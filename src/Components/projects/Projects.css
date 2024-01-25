@@ -33,6 +33,7 @@
     font-weight: bold;
 }
 .card-project:hover{
+    cursor: pointer;
     color: white;
 }
 .loader-projects{

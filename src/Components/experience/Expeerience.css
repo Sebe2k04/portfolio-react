@@ -58,6 +58,7 @@
 }
 .card-experience:hover{
     color: white;
+    cursor: pointer;
 }
 
 

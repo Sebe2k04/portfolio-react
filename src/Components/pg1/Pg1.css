@@ -78,6 +78,7 @@
 }
 
 .btn1:hover{
+    cursor: pointer;
     a{
         color: black;
         letter-spacing: 4px;
@@ -86,6 +87,7 @@
     background-color: yellow;
 }
 .btn2:hover{
+    cursor: pointer;
     a{
         color: yellow;
         letter-spacing: 4px;

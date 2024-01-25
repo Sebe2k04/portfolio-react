@@ -38,6 +38,7 @@
 }
 .content:hover{
     box-shadow:yellow 5px 5px 50px;
+    cursor: pointer;
 }
 .text{
     color: rgb(0, 0, 0);
@@ -106,6 +107,7 @@
 .cv:hover{
     padding: 15px 25px;
     box-shadow: white 2px 2px 10px;
+    cursor: pointer;
     a{
         letter-spacing: 2px;
         color: white;

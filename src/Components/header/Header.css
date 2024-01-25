@@ -74,6 +74,7 @@ a{
     transition: 1s;
 }
 .navbar a:hover{
+    cursor: pointer;
     color: white;
     letter-spacing: 3px;
 }
@@ -81,6 +82,7 @@ a{
     transition: 1s;
 }
 .dropdown a:hover{
+    cursor: pointer;
     letter-spacing: 3px;
     color: white;
 }
