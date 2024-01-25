@@ -1,5 +1,6 @@
 import { useReducer } from "react";
 import './Header.css';
+import icon from '../../assets/favicon.png'
 const Header = () => {
 
     const [display, toggleDisplay] = useReducer(
@@ -12,7 +13,7 @@ const Header = () => {
         <div className="head">
             <div className="navbar">
                 <div className="left">
-                    <img src="assets/pic.png" alt="" />
+                    <img src={icon} alt="" />
                     <p>Sebe</p>
                 </div>
                 <div className="center">
